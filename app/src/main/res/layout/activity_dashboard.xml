@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_splash_screen"
+    tools:context=".DashboardActivity" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="240dp"
+            android:layout_height="25dp"
+            android:paddingRight="90dp"
+            android:hint="Pencarian"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:background="@drawable/kotak_pencarian"/>
+        <ImageView
+            android:paddingLeft="5dp"
+            android:layout_marginTop="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_shopping_cart_24"/>
+        <ImageView
+            android:paddingLeft="5dp"
+            android:layout_marginTop="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_textsms_24"/>
+        <ImageView
+            android:paddingRight="190dp"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:src="@drawable/logo"/>
+</LinearLayout>>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/img">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="70dp"
+            android:layout_height="90dp">
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="70dp"
+                android:background="@drawable/phone"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electronic"
+                android:textStyle="bold"
+                android:textColor="#999999">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="70dp"
+            android:layout_height="90dp">
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="70dp"
+                android:background="@drawable/topup"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="top up"
+                android:textStyle="bold"
+                android:textColor="#999999">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="70dp"
+            android:layout_height="90dp">
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="70dp"
+                android:background="@drawable/hotel"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hotel"
+                android:textStyle="bold"
+                android:textColor="#999999">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="70dp"
+            android:layout_height="90dp">
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="70dp"
+                android:background="@drawable/shopping"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pgk Mall"
+                android:textStyle="bold"
+                android:textColor="#999999">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="70dp"
+            android:layout_height="90dp">
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="70dp"
+            android:background="@drawable/sofa"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Furniture"
+                android:textStyle="bold"
+                android:textColor="#999999">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="70dp"
+            android:layout_height="90dp">
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="70dp"
+                android:background="@drawable/beauty"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beauty"
+                android:textStyle="bold"
+                android:textColor="#999999">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="70dp"
+            android:layout_height="90dp">
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="70dp"
+                android:background="@drawable/fashion"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fashion"
+                android:textStyle="bold"
+                android:textColor="#999999">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="70dp"
+            android:layout_height="90dp">
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="70dp"
+                android:background="@drawable/shoes"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shoes"
+                android:textStyle="bold"
+                android:textColor="#999999">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginLeft="15dp"
+            android:layout_width="240dp"
+            android:layout_height="200dp"
+            android:background="@drawable/banner">
+        </Button>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_width="140dp"
+            android:layout_height="200dp"
+            android:background="@drawable/laptop">
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_marginTop="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/bar">
+
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/home"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textStyle="bold"
+                android:textColor="#999999">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/feed1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feed"
+                android:textStyle="bold"
+                android:textColor="#999999">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="90dp"
+            android:layout_height="60dp">
+            <Button
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/transaksi"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transaction"
+                android:textStyle="bold"
+                android:textColor="#999999">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="75dp"
+            android:layout_height="60dp">
+            <Button
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/alarm"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notification"
+                android:textStyle="bold"
+                android:textColor="#999999">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+            <Button
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/user_1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User"
+                android:textStyle="bold"
+                android:textColor="#999999">
+
+            </TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
